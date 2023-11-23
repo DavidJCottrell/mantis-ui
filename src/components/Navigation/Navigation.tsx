@@ -132,7 +132,7 @@ export const Navigation = (props: any) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            DevFlow
+            Mantis
           </Typography>
         </Toolbar>
       </AppBar>

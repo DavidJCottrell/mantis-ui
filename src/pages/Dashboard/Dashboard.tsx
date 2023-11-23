@@ -1,6 +1,6 @@
 import SprintCard from "./components/SprintCard";
 import { Box, Grid } from "@mui/material";
-import Navigation from "../Navigation";
+import Navigation from "../../components/Navigation";
 import React from "react";
 
 export const Dashboard = () => {

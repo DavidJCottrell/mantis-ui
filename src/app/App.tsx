@@ -1,6 +1,6 @@
 import React from "react";
 
-import Dashboard from "../features/Dashboard";
+import Dashboard from "../pages/Dashboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import SprintViewer from "../features/SprintViewer";

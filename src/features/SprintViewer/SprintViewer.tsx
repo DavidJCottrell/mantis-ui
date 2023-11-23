@@ -2,7 +2,7 @@ import { Backdrop, CircularProgress } from "@mui/material";
 import { useState } from "react";
 import { useGetSprintQuery } from "../../app/store/services/sprint";
 import Modal from "../../components/Modal";
-import Navigation from "../Navigation";
+import Navigation from "../../components/Navigation";
 import IssueModalContent from "./components/IssueModal";
 import SprintFlow from "./components/SprintFlow";
 import UpdateModalContent from "./components/UpdateModal";
