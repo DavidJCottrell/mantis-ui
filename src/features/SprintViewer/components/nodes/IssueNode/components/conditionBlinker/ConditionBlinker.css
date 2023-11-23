@@ -1,0 +1,79 @@
+.conditionBlinker {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    right: 48%;
+    transform: scale(1);
+}
+
+
+.blocked {
+    background: rgba(255, 82, 82, 1);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+    animation: pulseRed 2s infinite;
+}
+
+@keyframes pulseRed {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+.onHold {
+    background: rgb(215, 213, 48);
+    box-shadow: 0 0 0 0 rgba(215, 213, 48, 1);
+    animation: pulseYellow 2s infinite;
+}
+
+@keyframes pulseYellow {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(215, 213, 48, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(215, 213, 48, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(215, 213, 48, 0);
+    }
+}
+
+.active {
+    background: rgb(48, 101, 215);
+    box-shadow: 0 0 0 0 rgba(48, 101, 215, 1);
+    animation: pulseBlue 2s infinite;
+}
+
+@keyframes pulseBlue {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(48, 101, 215, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(48, 101, 215, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(48, 101, 215, 0);
+    }
+}
